@@ -92,7 +92,7 @@ body {
 /* Section styling */
 .section {
   height: auto;
-  min-height: 90vh; /* Tetap menjaga minimal setinggi viewport */
+  min-height: 100vh; /* Tetap menjaga minimal setinggi viewport */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,7 +137,7 @@ html {
 #about {
   padding: 50px;
   border-radius: 10px;
-  margin-top: 0px;
+  margin-top: auto;
   margin-left: -200px;
 }
 
@@ -528,3 +528,4 @@ html {
   font-weight: bold;
   cursor: pointer;
 }
+
